@@ -161,38 +161,9 @@ body {
   width: 20%;
   margin: 10px;
 }
-
-.home-page {
-  width: 100%;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-}
-
-.home-title {
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-}
-
-.home-buttons {
-  display: flex;
-  justify-content: space-around;
-}
-
-.home-button {
-  width: 30%;
-  height: fit-content;
-  margin-top: 30px;
-}
-
-#icon {
-  width: 100%;
-}
 ```
 
-### In scriptgpa.css
+### In scriptgpa.js
 ```
 document.addEventListener('DOMContentLoaded', function() {
     var addButton = document.querySelector('.buttons[type="submit"]');
@@ -274,7 +245,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
+  /*Align contents in center*/
   font-family: "Poppins", sans-serif;
 
 }
@@ -283,7 +254,7 @@ body {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-  border: 2px solid black;
+  /* Add border size and border color */
   width: 60%;
   margin: 50px;
 }
@@ -298,28 +269,27 @@ body {
 
 .input-fields {
   display: flex;
-  flex-wrap: wrap; /* Ensure items wrap to next row */
+  /*Wrap contents*/
   width: 100%;
-  justify-content: center; /* Center items horizontally */
+  /* Center items horizontally */
 }
 
 .gpa-field {
   width: 40%;
-  margin: 20px; /* Adjust margin as needed */
+  /* Adjust margin as needed */
 }
 
 .gpa-field h5,
 .gpa-field input {
-  width: calc(100% - 20px); /* Adjust width for h5 and input */
-  margin-bottom: 10px; /* Adjust margin as needed */
+  width: calc(100% - 20px);
+  /* Adjust margin as needed */
 }
 
 .input {
   padding: 10px;
   border-radius: 20px;
   border: 1px solid black;
-  box-sizing: border-box; /* Ensure padding doesn't affect width */
-}
+  box-sizing: border-box; 
 
 .button-div {
   display: flex;
@@ -343,7 +313,7 @@ body {
 .home-title {
   margin-top: 30px;
   display: flex;
-  justify-content: center;
+  /*Align contents in the center*/
 }
 
 .home-buttons {
@@ -371,7 +341,7 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault();
         
         var inputFields = document.querySelector('.input-fields');
-        inputFields.appendChild(createInputField('GPA - Semester' + gpaCount++, 'Enter GPA'));
+        /* Create input field */
     });
     
     function createInputField(labelText, placeholderText) {
