@@ -22,7 +22,7 @@
 
         <div class="home-buttons">
             <!-- Create buttons with images to link gpa.html and cgpa.html -->
-            <!-- Write your code here -->
+            <!-- Write your code here (id="icon")-->
 
         </div>
     </div>
@@ -79,18 +79,18 @@
         <div class="input-fields">
             <div class="credit-field">
                 <h5 class="input-text">Credit for Subject 1</h5>
-                <!--Get inputs for credit using input tag-->
+                <!--Get inputs for credit using input tag (class="input") -->
             </div>
             <div class="credit-field">
                 <h5 class="input-text">Grade Point</h5>
-                <!--Get inputs for grade using input tag-->
+                <!--Get inputs for credit using input tag (class="input") -->
             </div>
         </div>
         <div class="button-div">
-            <!-- Create button tag with class buttons to "Add Entry"-->
+            <!-- Create button tag with class "buttons" to "Add Entry"-->
         </div>
         <div class="button-div">
-            <!-- Create button tag with class buttons to "Calculate"-->
+            <!-- Create button tag with class "buttons" to "Calculate"-->
         </div>
 
     </div>
@@ -217,7 +217,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="input-fields">
             <div class="gpa-field">
                 <h5 class="input-text">GPA - Semester 1</h5>
-                <!--Get inputs for gpa using input tag-->
+                <!--Get inputs for gpa using input tag class="input"-->
             </div>
 
 
@@ -225,10 +225,10 @@ document.addEventListener('DOMContentLoaded', function() {
     
         </div>
         <div class="button-div">
-            <!-- Create button tag with class buttons to "Add Entry"-->
+            <!-- Create button tag with class "buttons" to "Add Entry"-->
         </div>
         <div class="button-div">
-            <!-- Create button tag with class buttons to "Calculate"-->
+            <!-- Create button tag with class "buttons" to "Calculate"-->
         </div>
 
     </div>
@@ -364,6 +364,12 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 ```
+### Output
+![Screenshot 2024-03-28 090400](https://github.com/Harsayazheni/FrontendBlitz/assets/118708467/36957a64-92ec-434e-a942-43190c159c16)
+![Screenshot 2024-03-28 090422](https://github.com/Harsayazheni/FrontendBlitz/assets/118708467/8f9adc78-6033-4753-9dfa-8580ae4ddc42)
+![Screenshot 2024-03-28 090636](https://github.com/Harsayazheni/FrontendBlitz/assets/118708467/fb51da7b-20a4-4fee-ad30-916535e63daa)
+
+
 #### Developed by
 ```
 Manoj M V - 212222220023
