@@ -365,13 +365,11 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 ```
 ### Output
-![Screenshot 2024-03-28 090400](https://github.com/Harsayazheni/FrontendBlitz/assets/118708467/36957a64-92ec-434e-a942-43190c159c16)
-![Screenshot 2024-03-28 090422](https://github.com/Harsayazheni/FrontendBlitz/assets/118708467/8f9adc78-6033-4753-9dfa-8580ae4ddc42)
-![Screenshot 2024-03-28 090636](https://github.com/Harsayazheni/FrontendBlitz/assets/118708467/fb51da7b-20a4-4fee-ad30-916535e63daa)
-
+![Output](op1.png)
+![Output](op2.png)
+![Output](op3.png)
 
 #### Developed by
 ```
-Manoj M V - 212222220023
-Harsayazheni P Y - 212222040052 
+Kiran J - 212221240022
 ```
